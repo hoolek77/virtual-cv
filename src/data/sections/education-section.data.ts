@@ -4,25 +4,25 @@ import { website } from '../helpers/links';
 
 const educationSectionData = {
   config: {
-    title: 'Education',
+    title: 'Education and Certifications',
     slug: 'education',
     icon: 'fa6-solid:graduation-cap',
     visible: true,
   },
   diplomas: [
     {
-      title: 'Information Technology',
-      institution: 'Wrocław University of Science and Technology',
-      dates: [new Date('2014.10'), new Date('2016.07')],
-      description: 'Master degree. Specialization in software development.',
-      links: [website({ url: '#' })],
+      title: 'Computer Science',
+      institution: 'Collegium Da Vinci',
+      dates: [new Date('2020.10'), new Date('2024.02')],
+      description: "Engineer's degree. Specialization in mobile and web application development.",
+      links: [website({ url: 'https://cdv.pl/en/' })],
     },
     {
-      title: 'Information Technology',
-      institution: 'Wrocław University of Science and Technology',
-      dates: [new Date('2011.10'), new Date('2014.07')],
-      description: "Bachelor's degree. Specialization in application development.",
-      links: [website({ url: '#' })],
+      title: 'Certificate of finishing web programming course',
+      institution: 'Coders Camp',
+      dates: [new Date('2020.1'), new Date('2021.04')],
+      description: 'Credential ID CC012021W065',
+      links: [website({ url: 'https://www.coderscamp.edu.pl/' })],
     },
   ],
 } as const satisfies ReadonlyDeep<EducationSection>;

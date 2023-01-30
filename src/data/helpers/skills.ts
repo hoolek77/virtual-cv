@@ -10,6 +10,7 @@ Where skills are used:
 - portfolio-section.data.ts
 - skills-section.data.ts
 
+export const apolloGraphql = createSkill({
 Usage examples:
 skill() — returns skill object without any customizations.
 skill({ level: 3 }) — returns a levelled-skill. It can be used only in skills-section.data.ts.
@@ -26,141 +27,139 @@ export const apolloGraphql = createSkillFactory({
 });
 
 export const astro = createSkillFactory({
+  icon: 'logos:astro',
   name: 'Astro',
-  icon: 'simple-icons:astro',
-  iconColor: '#FF5D01',
   url: 'https://astro.build/',
 });
 
 export const chakraUi = createSkillFactory({
-  name: 'Chakra UI',
   icon: 'simple-icons:chakraui',
   iconColor: '#319795',
+  name: 'Chakra UI',
   url: 'https://chakra-ui.com/',
 });
 
-export const cypress = createSkillFactory({
-  name: 'Cypress',
-  icon: 'simple-icons:cypress',
-  iconColor: '#17202C',
-  url: 'https://www.cypress.io/',
-});
-
 export const eslint = createSkillFactory({
-  name: 'ESLint',
   icon: 'simple-icons:eslint',
   iconColor: '#4B32C3',
+  name: 'ESLint',
   url: 'https://eslint.org/',
 });
 
-export const firebase = createSkillFactory({
-  name: 'Firebase',
-  icon: 'simple-icons:firebase',
-  iconColor: '#FFCA28',
-  url: 'https://firebase.google.com/',
-});
-
 export const jest = createSkillFactory({
+  icon: 'logos:jest',
   name: 'Jest',
-  icon: 'simple-icons:jest',
-  iconColor: '#C21325',
   url: 'https://jestjs.io/',
 });
 
 export const mongoDb = createSkillFactory({
-  name: 'MongoDB',
   icon: 'simple-icons:mongodb',
   iconColor: '#47A248',
+  name: 'MongoDB',
   url: 'https://www.mongodb.com/',
 });
 
 export const nestJs = createSkillFactory({
-  name: 'NestJS',
   icon: 'simple-icons:nestjs',
   iconColor: '#E0234E',
+  name: 'NestJS',
   url: 'https://nestjs.com/',
 });
 
 export const nextJs = createSkillFactory({
+  icon: 'logos:nextjs-icon',
   name: 'Next.js',
-  icon: 'simple-icons:nextdotjs',
-  iconColor: '#000000',
   url: 'https://nextjs.org/',
 });
 
-export const nx = createSkillFactory({
-  name: 'Nx',
-  icon: 'simple-icons:nx',
-  iconColor: '#143055',
-  url: 'https://nx.dev/',
-});
-
-export const pnpm = createSkillFactory({
-  name: 'pnpm',
-  icon: 'simple-icons:pnpm',
-  iconColor: '#F69220',
-  url: 'https://pnpm.io/',
-});
-
 export const postgreSql = createSkillFactory({
-  name: 'PostgreSQL',
   icon: 'simple-icons:postgresql',
   iconColor: '#4169E1',
+  name: 'PostgreSQL',
   url: 'https://www.postgresql.org/',
 });
 
 export const prettier = createSkillFactory({
-  name: 'Prettier',
   icon: 'simple-icons:prettier',
   iconColor: '#F7B93E',
+  name: 'Prettier',
   url: 'https://prettier.io/',
 });
 
 export const react = createSkillFactory({
-  name: 'React.js',
-  icon: 'simple-icons:react',
+  icon: 'logos:react',
   iconColor: '#61DAFB',
+  name: 'React.js',
   url: 'https://reactjs.org/',
 });
 
 export const reactQuery = createSkillFactory({
   name: 'React Query',
-  icon: 'simple-icons:reactquery',
-  iconColor: '#FF4154',
+  icon: 'logos:react-query-icon',
   url: 'https://tanstack.com/query',
 });
 
-export const sass = createSkillFactory({
-  name: 'SASS',
-  icon: 'simple-icons:sass',
-  iconColor: '#CC6699',
-  url: 'https://sass-lang.com/',
-});
-
-export const supabase = createSkillFactory({
-  name: 'Supabase',
-  icon: 'simple-icons:supabase',
-  iconColor: '#3ECF8E',
-  url: 'https://supabase.io/',
-});
-
 export const tailwindCss = createSkillFactory({
-  name: 'Tailwind CSS',
   icon: 'simple-icons:tailwindcss',
   iconColor: '#06B6D4',
+  name: 'Tailwind CSS',
   url: 'https://tailwindcss.com/',
 });
 
 export const typescript = createSkillFactory({
-  name: 'TypeScript',
   icon: 'simple-icons:typescript',
   iconColor: '#3178C6',
+  name: 'TypeScript',
   url: 'https://www.typescriptlang.org/',
 });
 
-export const vue = createSkillFactory({
-  name: 'Vue.js',
-  icon: 'simple-icons:vuedotjs',
-  iconColor: '#4FC08D',
-  url: 'https://vuejs.org/',
+export const javascript = createSkillFactory({
+  icon: 'logos:javascript',
+  name: 'JavaScript ES6',
+  url: 'https://www.javascript.com/',
+});
+
+export const storybook = createSkillFactory({
+  icon: 'logos:storybook-icon',
+  iconColor: '#FF4785',
+  name: 'Storybook',
+  url: 'https://storybook.js.org/',
+});
+
+export const redux = createSkillFactory({
+  icon: 'logos:redux',
+  name: 'Redux',
+  url: 'https://redux.js.org/',
+});
+
+export const styledComponents = createSkillFactory({
+  icon: 'simple-icons:styledcomponents',
+  iconColor: '#DB7093',
+  name: 'Styled Components',
+  url: 'https://styled-components.com/',
+});
+
+export const prisma = createSkillFactory({
+  icon: 'logos:prisma',
+  name: 'Prisma',
+  url: 'https://www.prisma.io/',
+});
+
+export const socketio = createSkillFactory({
+  icon: 'logos:socket-io',
+  name: 'Socket.io',
+  url: 'https://socket.io/',
+});
+
+export const materialUi = createSkillFactory({
+  icon: 'logos:material-ui',
+  name: 'Material UI',
+  url: 'https://material-ui.com/',
+});
+
+export const i18next = createSkillFactory({
+  icon: 'simple-icons:i18next',
+  iconColor: '#26A69A',
+  name: 'i18next',
+  url: 'https://www.i18next.com/',
 });

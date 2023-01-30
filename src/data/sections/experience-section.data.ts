@@ -1,18 +1,19 @@
 import type { ExperienceSection } from '@/types/sections/experience-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { facebook, github, instagram, linkedin, twitter, website } from '../helpers/links';
+import { facebook, linkedin, website } from '../helpers/links';
 import {
-  chakraUi,
-  eslint,
-  firebase,
+  i18next,
+  javascript,
+  jest,
   nextJs,
-  nx,
-  pnpm,
+  prisma,
   react,
-  reactQuery,
+  redux,
+  socketio,
+  storybook,
+  styledComponents,
   tailwindCss,
   typescript,
-  vue,
 } from '../helpers/skills';
 
 const experienceSectionData = {
@@ -24,56 +25,76 @@ const experienceSectionData = {
   },
   jobs: [
     {
-      role: 'Senior front-end developer',
-      company: 'Google',
-      dates: [new Date('2020-02'), null],
+      role: 'React developer',
+      company: 'DreamStorm Studios',
+      dates: [new Date('2021-10'), null],
       description: `
-        - In tristique vulputate augue vel egestas.
-        - Quisque ac imperdiet tortor, at lacinia ex.
-        - Duis vel ex hendrerit, commodo odio sed, aliquam enim.
-        - Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi.
-        - Nunc malesuada leo et est iaculis facilisis.
-        - Fusce eu urna ut magna malesuada fringilla.
+        - Developing and sustaining the front-end of an all-in-one platform for creating virtual events.
+        - Being a member of a team that was planning and executing a major platform refactor.
+        - Writing unit and integration tests. Taking part in creating a test strategy for the product.
+        - Introducing and implementing a storybook UI components library in the app.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), nextJs(), typescript(), nx(), firebase()],
+        tags: [
+          react(),
+          nextJs(),
+          typescript(),
+          storybook(),
+          jest(),
+          styledComponents(),
+          prisma(),
+          tailwindCss(),
+          socketio(),
+        ],
       },
-      links: [facebook({ url: '#' }), linkedin({ url: '#' })],
+      links: [
+        website({ url: 'https://dreamstormstudios.com/' }),
+        facebook({ url: 'https://www.facebook.com/DreamStormStudios' }),
+        linkedin({ url: 'https://www.linkedin.com/company/dreamstormstudios/mycompany/' }),
+      ],
     },
     {
-      role: 'React.js developer',
-      company: 'Facebook',
-      dates: [new Date('2019-04'), new Date('2020-02')],
+      role: 'Freelance React Developer',
+      company: 'Netzwind',
+      dates: [new Date('2021-08'), new Date('2021-09')],
       description: `
-        - Aenean eget ultricies felis. Pellentesque dictum massa ut tellus eleifend, sed posuere massa mattis.
-        - Ut posuere massa lacus, eleifend molestie tortor auctor vel.
-        - Sed sed sollicitudin eros, id ultricies mi. Aliquam sodales elit vel ante tempor, non vehicula nibh facilisis.
-        - Cras feugiat ultricies maximus. Aliquam tristique ex odio, ac semper urna accumsan a.
+        - Working on an information system for students and a mobile app with more than 50k downloads.
+        - Planning the application architecture and implementing the first version.
+        - Connecting with an existing backend.
+        - Working closely with the product owner to deliver new features.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), reactQuery(), chakraUi(), eslint()],
+        tags: [
+          react(),
+          typescript(),
+          i18next(),
+          {
+            icon: 'simple-icons:axios',
+            iconColor: '#5a29e4',
+            name: 'Axios',
+            url: 'https://axios-http.com/',
+          },
+          redux(),
+        ],
       },
-      links: [website({ url: '#' }), instagram({ url: '#' })],
+      links: [website({ url: 'https://netzwind.eu/' })],
     },
     {
-      role: 'Junior front-end developer',
-      company: 'GitLab',
-      dates: [new Date('2016-09'), new Date('2019-04')],
+      role: 'React Native Developer Intern',
+      company: 'Expansio Software House',
+      dates: [new Date('2021-07'), new Date('2021-08')],
       description: `
-        Nulla volutpat justo ante, rhoncus posuere massa egestas in:
-
-        - Quisque pellentesque, dolor nec sollicitudin iaculis, sem velit consequat ligula, eget tempus ligula leo et est.
-        - Maecenas ut elit sit amet nibh maximus condimentum in nec lorem. Pellentesque tincidunt odio vel leo suscipit, in interdum mi gravida.
-
-        Donec non vulputate augue 🤓
+        - Developing a mobile e-learning platform with React Native and Redux.
+        - Improving internationalization in the app and revamping all application screens.
+        - Taking part in dev meetings regarding code base and product.
       `,
-      tagsList: {
-        title: 'Technologies',
-        tags: [vue(), tailwindCss(), pnpm()],
-      },
-      links: [twitter({ url: '#' }), github({ url: '#' })],
+      tagsList: { title: 'Technologies', tags: [react({ name: 'React Native' }), typescript(), javascript(), redux()] },
+      links: [
+        website({ url: 'https://expans.io/' }),
+        linkedin({ url: 'https://www.linkedin.com/company/expansio-software-house/' }),
+      ],
     },
   ],
 } as const satisfies ReadonlyDeep<ExperienceSection>;

@@ -11,6 +11,16 @@ const { meta, i18n } = Astro.props;
 <html lang={i18n.locale.code} class="scroll-smooth">
   <Head meta={meta} />
   <body class="flex justify-center overflow-x-hidden bg-gray-50 dark:bg-gray-900 xl:relative xl:left-7">
+    <script type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=G-703GHG9KDP"></script>
+    <script type="text/partytown">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-703GHG9KDP');
+    </script>
     <slot />
   </body>
 </html>

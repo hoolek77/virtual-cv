@@ -11,9 +11,9 @@ const config = {
     },
   },
   meta: {
-    title: 'Mark Freeman - Senior React Developer',
+    title: 'Szymon Kin - Frontend Developer',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sodales ac dui at vestibulum. In condimentum metus id dui tincidunt, in blandit mi vehicula.',
+      'I am a   Frontend Developer looking for remote opportunities! If you wish to find out more about me, read the information on this page.',
     faviconPath: '/src/assets/my-image.jpeg',
   },
   pdf: {
