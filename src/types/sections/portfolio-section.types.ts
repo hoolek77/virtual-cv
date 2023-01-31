@@ -1,4 +1,16 @@
-import type { DateRange, Photo, LabelledValue, LinkButton, Section, TagsList } from '../shared';
+import type { DateRange, Photo, LabelledValue, LinkButton, Section, TagsList, IconName } from '../shared';
+
+interface Screenshot {
+  /**
+   * [WEB] Source of the screenshot.
+   */
+  src: Photo;
+
+  /**
+   * [WEB] Alt text for the screenshot.
+   */
+  alt: string;
+}
 
 export interface Project {
   /**
@@ -11,9 +23,9 @@ export interface Project {
    *
    * **Ratio**: 1:1
    *
-   * **Display size**: 120x120px
+   * **Display size**: 56x56px
    */
-  image: Photo;
+  image?: Photo;
 
   /**
    * Date range when you were working on the project.
@@ -40,6 +52,11 @@ export interface Project {
   description: string;
 
   /**
+   * [WEB] Screenshots of the project.
+   */
+  screenshots?: Screenshot[];
+
+  /**
    * Any information that you want to highlight.
    * We recommend to describe the technologies used in the project.
    */
@@ -56,4 +73,21 @@ export interface PortfolioSection extends Section {
    * List of your projects in a chronological order. Start with the most recent one.
    */
   projects: Project[];
+
+  config: Section['config'] & {
+    /**
+     * [WEB] Configuration of the button that displays project's screenshots.
+     */
+    screenshots?: {
+      /**
+       * [WEB] Icon displayed within the button.
+       */
+      icon?: IconName;
+
+      /**
+       * [WEB] Title displayed when hovering the button.
+       */
+      title?: string;
+    };
+  };
 }

@@ -27,6 +27,10 @@ const portfolioSectionData = {
     slug: 'projects',
     icon: 'fa6-solid:rocket',
     visible: true,
+    screenshots: {
+      title: 'Screenshots',
+      icon: 'fa6-solid:images',
+    },
   },
   projects: [
     {
