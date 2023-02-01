@@ -51,7 +51,7 @@ export const hideDiploma =
   (title: DiplomaTitle, institution?: DiplomaInstitution): DataTransformer =>
   (draft) => {
     draft.sections.education.diplomas = draft.sections.education.diplomas.filter(
-      (diploma) => diploma.title === title && diploma.institution === institution
+      (diploma) => !(diploma.title === title && diploma.institution === institution)
     );
   };
 

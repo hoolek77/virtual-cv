@@ -13,6 +13,7 @@ const educationSectionData = {
     {
       title: 'Computer Science',
       institution: 'Collegium Da Vinci',
+      image: import('@/assets/logos/collegium-da-vinci-logo.png'),
       dates: [new Date('2020.10'), new Date('2024.02')],
       description: "Engineer's degree. Specialization in mobile and web application development.",
       links: [website({ url: 'https://cdv.pl/en/' })],
@@ -20,7 +21,8 @@ const educationSectionData = {
     {
       title: 'Certificate of finishing web programming course',
       institution: 'Coders Camp',
-      dates: [new Date('2020.1'), new Date('2021.04')],
+      image: import('@/assets/logos/coders-crew-logo.png'),
+      dates: [new Date('2020.11'), new Date('2021.04')],
       description: 'Credential ID CC012021W065',
       links: [website({ url: 'https://www.coderscamp.edu.pl/' })],
     },

@@ -25,9 +25,27 @@ const experienceSectionData = {
   },
   jobs: [
     {
+      role: 'Frontend developer',
+      company: 'JJM Development',
+      image: import('@/assets/logos/jjm-development-logo.jpeg'),
+      dates: [new Date('2023-02'), null],
+      description: `
+        - Developing and sustaining the front-end of a virtual marketplace.
+      `,
+      tagsList: {
+        title: 'Technologies',
+        tags: [react(), nextJs(), typescript(), jest(), styledComponents(), redux()],
+      },
+      links: [
+        website({ url: 'https://jjmdevelopment.pl/' }),
+        linkedin({ url: 'https://www.linkedin.com/company/jjm-development/mycompany/' }),
+      ],
+    },
+    {
       role: 'React developer',
       company: 'DreamStorm Studios',
-      dates: [new Date('2021-10'), null],
+      image: import('@/assets/logos/dreamstorm-studios-logo.png'),
+      dates: [new Date('2021-10'), new Date('2021-12')],
       description: `
         - Developing and sustaining the front-end of an all-in-one platform for creating virtual events.
         - Being a member of a team that was planning and executing a major platform refactor.
@@ -57,6 +75,7 @@ const experienceSectionData = {
     {
       role: 'Freelance React Developer',
       company: 'Netzwind',
+      image: import('@/assets/logos/netzwind-logo.jpeg'),
       dates: [new Date('2021-08'), new Date('2021-09')],
       description: `
         - Working on an information system for students and a mobile app with more than 50k downloads.
@@ -84,6 +103,7 @@ const experienceSectionData = {
     {
       role: 'React Native Developer Intern',
       company: 'Expansio Software House',
+      image: import('@/assets/logos/expansio-logo.jpeg'),
       dates: [new Date('2021-07'), new Date('2021-08')],
       description: `
         - Developing a mobile e-learning platform with React Native and Redux.
