@@ -7,14 +7,16 @@ import MainSection from '@/pdf/sections/main-section.pdf.astro';
 import PortfolioSection from '@/pdf/sections/portfolio-section.pdf.astro';
 import SkillsSection from '@/pdf/sections/skills-section.pdf.astro';
 
-import cv, { hideDiploma, hideProject, hideSkillSet, renameSkillSet } from '@/data';
+import cv, { hideAllSkillLevels, hideDiploma, hideProject, hideSkills, hideSkillSet, renameSkillSet } from '@/data';
 
 const { config, sections } = cv(
   hideSkillSet('I want to learn'),
   renameSkillSet('I already know', 'Skills'),
   renameSkillSet('I speak', 'Languages'),
   hideDiploma('Certificate of finishing web programming course', 'Coders Camp'),
-  hideProject('Rick & Morty Wiki')
+  hideProject('Rick & Morty Wiki'),
+  hideSkills('I already know', ['NestJS']),
+  hideAllSkillLevels()
 );
 
 const shouldRenderSection = (section: keyof typeof sections) => sections[section] && sections[section].config.visible;

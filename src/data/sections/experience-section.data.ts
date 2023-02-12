@@ -31,6 +31,7 @@ const experienceSectionData = {
       dates: [new Date('2023-02'), null],
       description: `
         - Developing and sustaining the front-end of a virtual marketplace.
+        - Collaborating with a scrum team to ensure delivery of high-quality product.
       `,
       tagsList: {
         title: 'Technologies',
