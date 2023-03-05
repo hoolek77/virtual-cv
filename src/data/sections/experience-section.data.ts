@@ -32,6 +32,7 @@ const experienceSectionData = {
       description: `
         - Developing and sustaining the front-end of a virtual marketplace.
         - Collaborating with a scrum team to ensure delivery of high-quality product.
+        - Introducing and implementing polymorphic approach for building strongly typed components.
       `,
       tagsList: {
         title: 'Technologies',

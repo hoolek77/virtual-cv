@@ -94,7 +94,7 @@ const skillsSectionData = {
         },
         {
           icon: 'circle-flags:us',
-          name: 'English',
+          name: 'English - professional proficiency',
         },
       ],
     },

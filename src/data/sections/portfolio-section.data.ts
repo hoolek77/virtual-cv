@@ -34,14 +34,33 @@ const portfolioSectionData = {
   },
   projects: [
     {
+      name: 'Vilandy',
+      image: import('@/assets/portfolio/vilandy.png'),
+      dates: [new Date('2023.02'), null],
+      details: [
+        { label: 'Team size', value: '10 people' },
+        { label: 'My role', value: ['Frontend Developer'] },
+        { label: 'Company', value: 'JJM Development' },
+        { label: 'Category', value: ['Web app, Mobile app, Commercial'] },
+      ],
+      pdfDetails: [{ label: 'Demo', value: 'https://www.vilandy.com/', url: 'https://www.vilandy.com/' }],
+      description:
+        'The app is an all-in-one unique Home & Garden shopping platform offering the opportunity to sell and buy used furniture and accessories.',
+      tagsList: {
+        title: 'Technologies',
+        tags: [nextJs(), react(), typescript(), jest(), styledComponents(), redux()],
+      },
+      links: [demo({ url: 'https://www.vilandy.com/' })],
+    },
+    {
       name: 'The Labz Event Designer',
       image: import('@/assets/portfolio/labz.jpeg'),
-      dates: [new Date('2021.10'), null],
+      dates: [new Date('2021.10'), new Date('2022.12')],
       details: [
         { label: 'Team size', value: '6-10 people' },
         { label: 'My role', value: ['React Developer'] },
         { label: 'Company', value: 'DreamStorm Studios' },
-        { label: 'Category', value: ['Web app'] },
+        { label: 'Category', value: ['Web app, Commercial'] },
       ],
       pdfDetails: [{ label: 'Demo', value: 'https://www.thelabz.com/', url: 'https://www.thelabz.com/' }],
       description:
