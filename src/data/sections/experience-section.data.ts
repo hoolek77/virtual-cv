@@ -2,13 +2,18 @@ import type { ExperienceSection } from '@/types/sections/experience-section.type
 import type { ReadonlyDeep } from 'type-fest';
 import { facebook, linkedin, website } from '../helpers/links';
 import {
+  axios,
+  eslint,
   i18next,
   javascript,
   jest,
   nextJs,
+  prettier,
   prisma,
   react,
   redux,
+  rtkQuery,
+  sentry,
   socketio,
   storybook,
   styledComponents,
@@ -36,7 +41,19 @@ const experienceSectionData = {
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), nextJs(), typescript(), jest(), styledComponents(), redux()],
+        tags: [
+          react(),
+          nextJs(),
+          typescript(),
+          jest(),
+          styledComponents(),
+          redux(),
+          rtkQuery(),
+          axios(),
+          sentry(),
+          eslint(),
+          prettier(),
+        ],
       },
       links: [
         website({ url: 'https://jjmdevelopment.pl/' }),
@@ -66,6 +83,8 @@ const experienceSectionData = {
           prisma(),
           tailwindCss(),
           socketio(),
+          eslint(),
+          prettier(),
         ],
       },
       links: [
@@ -98,6 +117,8 @@ const experienceSectionData = {
             url: 'https://axios-http.com/',
           },
           redux(),
+          eslint(),
+          prettier(),
         ],
       },
       links: [website({ url: 'https://netzwind.eu/' })],
@@ -112,7 +133,10 @@ const experienceSectionData = {
         - Improving internationalization in the app and revamping all application screens.
         - Taking part in dev meetings regarding code base and product.
       `,
-      tagsList: { title: 'Technologies', tags: [react({ name: 'React Native' }), typescript(), javascript(), redux()] },
+      tagsList: {
+        title: 'Technologies',
+        tags: [react({ name: 'React Native' }), typescript(), javascript(), redux(), eslint(), prettier()],
+      },
       links: [
         website({ url: 'https://expans.io/' }),
         linkedin({ url: 'https://www.linkedin.com/company/expansio-software-house/' }),

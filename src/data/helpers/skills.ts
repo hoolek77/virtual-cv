@@ -163,3 +163,57 @@ export const i18next = createSkillFactory({
   name: 'i18next',
   url: 'https://www.i18next.com/',
 });
+
+export const html = createSkillFactory({
+  icon: 'logos:html-5',
+  name: 'HTML5',
+  url: 'https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5',
+});
+
+export const css3 = createSkillFactory({
+  icon: 'logos:css-3',
+  name: 'CSS3',
+  url: 'https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3',
+});
+
+export const nodeJs = createSkillFactory({
+  icon: 'logos:nodejs-icon',
+  name: 'Node.js',
+  url: 'https://nodejs.org/',
+});
+
+export const yarn = createSkillFactory({
+  icon: 'logos:yarn',
+  name: 'Yarn',
+  url: 'https://yarnpkg.com/',
+});
+
+export const npm = createSkillFactory({
+  icon: 'logos:npm-icon',
+  name: 'NPM',
+  url: 'https://www.npmjs.com/',
+});
+
+export const sass = createSkillFactory({
+  icon: 'logos:sass',
+  name: 'Sass',
+  url: 'https://sass-lang.com/',
+});
+
+export const sentry = createSkillFactory({
+  icon: 'logos:sentry-icon',
+  name: 'Sentry',
+  url: 'https://sentry.io/',
+});
+
+export const axios = createSkillFactory({
+  icon: 'logos:axios',
+  name: 'Axios',
+  url: 'https://axios-http.com/',
+});
+
+export const rtkQuery = createSkillFactory({
+  icon: 'logos:redux',
+  name: 'RTK Query',
+  url: 'https://redux-toolkit.js.org/rtk-query/overview',
+});
