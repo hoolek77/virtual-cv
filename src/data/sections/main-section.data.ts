@@ -16,7 +16,7 @@ const mainSectionData = {
     { label: 'Phone', value: '+48 515 191 231' },
     { label: 'Email', value: 'szymon.kin@gmail.com' },
     { label: 'From', value: 'Poznan, Poland' },
-    // { label: 'Seniority', value: 'Regular' },
+    { label: 'Contract type', value: 'B2B' },
   ],
   pdfDetails: [
     { label: 'Phone', value: '+48 515 191 231' },
