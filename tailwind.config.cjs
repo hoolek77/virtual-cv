@@ -30,6 +30,10 @@ module.exports = {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
     },
+    screens: {
+      xsm: '576px',
+      ...defaultTheme.screens,
+    },
   },
   plugins: [],
 };
