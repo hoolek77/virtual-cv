@@ -24,6 +24,7 @@ const { tags, title } = Astro.props;
       {tags.map((tag) => (
         <Tag {...tag} />
       ))}
+      <slot />
     </div>
   )
 }

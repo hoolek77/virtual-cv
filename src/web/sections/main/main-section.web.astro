@@ -53,22 +53,18 @@ const { action, config, description, details, fullName, image, links, role, tags
               </div>
             ))
           }
-          <div class="w-fit">
-            <Typography variant="paragraph">
-              <span class="flex items-center gap-1 whitespace-nowrap text-gray-700 dark:text-gray-300"
-                >Coding activity: <a href="https://wakatime.com/@5bbe3042-151f-495f-9727-94a83117a408">
-                  <img
-                    src="https://wakatime.com/badge/user/5bbe3042-151f-495f-9727-94a83117a408.svg"
-                    alt="Total time coded since Jul 12 2020"
-                  />
-                </a></span
-              >
-            </Typography>
-          </div>
         </div>
         <div class="flex flex-col gap-4">
           <Description content={description} />
-          <TagsList tags={tags} />
+          <TagsList tags={tags}>
+            <a href="https://wakatime.com/@5bbe3042-151f-495f-9727-94a83117a408" target="_blank">
+              <img
+                src="https://wakatime.com/badge/user/5bbe3042-151f-495f-9727-94a83117a408.svg"
+                alt="Total time coded since Jul 12 2020"
+                class="h-6"
+              />
+            </a>
+          </TagsList>
         </div>
       </div>
     </div>
