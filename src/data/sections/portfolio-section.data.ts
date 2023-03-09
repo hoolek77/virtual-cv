@@ -106,7 +106,7 @@ const portfolioSectionData = {
       dates: [new Date('2022-09'), new Date('2023-01')],
       details: [
         { label: 'Team size', value: '4 people' },
-        { label: 'My role', value: ['Front-end Developer'] },
+        { label: 'My role', value: ['Frontend Developer'] },
         { label: 'Organization', value: 'CodersCrew' },
         { label: 'Category', value: ['Web app', 'Open Source'] },
       ],
@@ -125,7 +125,7 @@ const portfolioSectionData = {
       dates: [new Date('2021-08'), new Date('2021-10')],
       details: [
         { label: 'Team size', value: '8-10 people' },
-        { label: 'My role', value: ['Front-end Developer'] },
+        { label: 'My role', value: ['Frontend Developer'] },
         { label: 'Organization', value: 'CodersCrew' },
         { label: 'Category', value: ['Web app', 'Open source'] },
       ],
@@ -170,7 +170,7 @@ const portfolioSectionData = {
       dates: [new Date('2021-10'), new Date('2021-12')],
       details: [
         { label: 'Team size', value: '1 person' },
-        { label: 'My role', value: 'Front-end Developer' },
+        { label: 'My role', value: 'Frontend Developer' },
         { label: 'Category', value: ['Web app', 'Learning purpose', 'Personal'] },
       ],
       pdfDetails: [
@@ -199,7 +199,7 @@ const portfolioSectionData = {
       dates: [new Date('2021-04'), new Date('2021-06')],
       details: [
         { label: 'Team size', value: '1 person' },
-        { label: 'My role', value: 'Front-end Developer' },
+        { label: 'My role', value: 'Frontend Developer' },
         { label: 'Category', value: ['Web app', 'Learning purpose', 'Personal'] },
       ],
       pdfDetails: [

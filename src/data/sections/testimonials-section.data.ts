@@ -13,7 +13,7 @@ const testimonialsSectionData = {
     {
       image: import('@/assets/testimonials/testimonial-1.jpeg'),
       author: 'Howard Stewart',
-      relation: 'We work together as front-end developers at Google',
+      relation: 'We work together as frontend developers at Google',
       content:
         'In nec mattis sem. Morbi purus lorem, euismod ac varius at, aliquet vitae augue. Pellentesque ut facilisis felis. In sed dui blandit, aliquet odio eu, elementum leo. In facilisis dapibus tortor ac volutpat. Cras cursus nec odio maximus elementum.',
       links: [github({ url: '#' }), linkedin({ url: '#' })],

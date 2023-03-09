@@ -35,7 +35,7 @@ const experienceSectionData = {
       image: import('@/assets/logos/jjm-development-logo.jpeg'),
       dates: [new Date('2023-02'), null],
       description: `
-        - Developing and sustaining the front-end of a virtual marketplace.
+        - Developing and sustaining the frontend of a virtual marketplace.
         - Collaborating with a scrum team to ensure delivery of high-quality product.
         - Introducing and implementing polymorphic approach for building strongly typed components.
       `,
@@ -66,7 +66,7 @@ const experienceSectionData = {
       image: import('@/assets/logos/dreamstorm-studios-logo.png'),
       dates: [new Date('2021-10'), new Date('2021-12')],
       description: `
-        - Developing and sustaining the front-end of an all-in-one platform for creating virtual events.
+        - Developing and sustaining the frontend of an all-in-one platform for creating virtual events.
         - Being a member of a team that was planning and executing a major platform refactor.
         - Writing unit and integration tests. Taking part in creating a test strategy for the product.
         - Introducing and implementing a storybook UI components library in the app.
