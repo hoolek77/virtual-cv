@@ -111,8 +111,8 @@ const portfolioSectionData = {
         { label: 'Category', value: ['Web app', 'Open Source'] },
       ],
       pdfDetails: [
-        { label: 'Demo', value: 'https://github.com/KonradSzwarc/devscard', url: '#' },
-        { label: 'Repository', value: 'https://szymonkin.dev/', url: '#' },
+        { label: 'Demo', value: 'https://szymonkin.dev/', url: '#' },
+        { label: 'Repository', value: 'https://github.com/KonradSzwarc/devscard', url: '#' },
       ],
       description:
         "The main objective of the app is to create a comprehensive virtual portfolio in just a few minutes. It's an open-source project created in collaboration with a team of passionate developers. Project tech-stack allowed me to learn and use the newest cutting-edge technologies for creating static web pages.",
