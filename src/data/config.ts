@@ -15,7 +15,7 @@ const config = {
     description:
       'I am a   Frontend Developer looking for remote opportunities! If you wish to find out more about me, read the information on this page.',
     faviconPath: '/src/assets/my-image.jpeg',
-    ogImage: '/src/assets/my-image.jpeg',
+    ogImage: '/my-image.jpeg',
   },
   pdf: {
     footer:
