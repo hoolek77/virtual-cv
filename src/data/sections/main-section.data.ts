@@ -13,14 +13,14 @@ const mainSectionData = {
   fullName: 'Szymon Kin',
   role: 'Frontend Developer',
   details: [
-    { label: 'Phone', value: '+48 515 191 231' },
-    { label: 'Email', value: 'szymon.kin@gmail.com' },
+    { label: 'Phone', value: '+48 515 191 231', url: 'tel:+48 515 191 231' },
+    { label: 'Email', value: 'szymon.kin@gmail.com', url: 'mailto:szymon.kin@gmail.com' },
     { label: 'From', value: 'Poznan, Poland' },
     { label: 'Contract type', value: 'B2B' },
   ],
   pdfDetails: [
     { label: 'Phone', value: '+48 515 191 231' },
-    { label: 'Email', value: 'szymon.kin@gmail.com' },
+    { label: 'Email', value: 'szymon.kin@gmail.com', url: 'mailto:szymon.kin@gmail.com' },
     { label: 'LinkedIn', value: '/in/szymon-kin', url: 'https://www.linkedin.com/in/szymon-kin/' },
     { label: 'GitHub', value: '/hoolek77', url: 'https://github.com/hoolek77' },
     { label: 'Website', value: 'szymonkin.dev', url: 'https://szymonkin.dev/', fullRow: true },
