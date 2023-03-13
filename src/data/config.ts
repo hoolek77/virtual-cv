@@ -13,7 +13,7 @@ const config = {
   meta: {
     title: 'Szymon Kin - Frontend Developer',
     description:
-      'I am a   Frontend Developer looking for remote opportunities! If you wish to find out more about me, read the information on this page.',
+      'I am a Frontend Developer looking for remote opportunities! If you wish to find out more about me, read the information on this page.',
     faviconPath: '/src/assets/my-image.jpeg',
     ogImage: '/my-image.jpeg',
   },
