@@ -4,18 +4,18 @@ import Footer from '@/pdf/components/footer.astro';
 import EducationSection from '@/pdf/sections/education-section.pdf.astro';
 import ExperienceSection from '@/pdf/sections/experience-section.pdf.astro';
 import MainSection from '@/pdf/sections/main-section.pdf.astro';
-import PortfolioSection from '@/pdf/sections/portfolio-section.pdf.astro';
+// import PortfolioSection from '@/pdf/sections/portfolio-section.pdf.astro';
 import SkillsSection from '@/pdf/sections/skills-section.pdf.astro';
 
-import cv, { hideAllSkillLevels, hideDiploma, hideProject, hideSkills, hideSkillSet, renameSkillSet } from '@/data';
+import cv, { hideAllSkillLevels, hideDiploma, hideSkills, hideSkillSet, renameSkillSet } from '@/data';
 
 const { config, sections } = cv(
   hideSkillSet('I want to learn'),
   renameSkillSet('I already know', 'Skills'),
   renameSkillSet('I speak', 'Languages'),
   hideDiploma('Certificate of finishing web programming course', 'Coders Camp'),
-  hideProject('Rick & Morty Wiki'),
-  hideProject('Task Berry'),
+  // hideProject('Rick & Morty Wiki'),
+  // hideProject('Task Berry'),
   hideSkills('I already know', ['NestJS']),
   hideAllSkillLevels()
 );
@@ -35,7 +35,7 @@ const shouldRenderSection = (section: keyof typeof sections) => sections[section
     {shouldRenderSection('main') && <MainSection {...sections.main} />}
     {shouldRenderSection('skills') && <SkillsSection {...sections.skills} />}
     {shouldRenderSection('experience') && <ExperienceSection {...sections.experience} />}
-    {shouldRenderSection('portfolio') && <PortfolioSection {...sections.portfolio} />}
+    <!-- {shouldRenderSection('portfolio') && <PortfolioSection {...sections.portfolio} />} -->
     {shouldRenderSection('education') && <EducationSection {...sections.education} />}
     {config.pdf?.footer && <Footer>{config.pdf.footer}</Footer>}
   </body>

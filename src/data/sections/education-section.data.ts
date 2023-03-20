@@ -4,7 +4,7 @@ import { website } from '../helpers/links';
 
 const educationSectionData = {
   config: {
-    title: 'Education and Certifications',
+    title: 'Education',
     slug: 'education',
     icon: 'fa6-solid:graduation-cap',
     visible: true,
