@@ -96,16 +96,9 @@ export const hideAllSkillLevels =
   (draft: DraftData): void => {
     draft.sections.skills.skillSets = draft.sections.skills.skillSets.map((skillSet) => ({
       ...skillSet,
-      skills: skillSet.skills.map((skill) => {
-        if ('level' in skill) {
-          const clonedSkill = structuredClone(skill);
-          // @ts-ignore
-          delete clonedSkill.level;
-
-          return clonedSkill;
-        }
-
-        return skill;
-      }),
+      skills: skillSet.skills.map((skill) => ({
+        ...skill,
+        level: undefined,
+      })),
     }));
   };

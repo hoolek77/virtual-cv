@@ -38,6 +38,8 @@ const experienceSectionData = {
         - Developing and sustaining the frontend of a virtual marketplace.
         - Collaborating with a scrum team to ensure delivery of high-quality product.
         - Introducing and implementing polymorphic approach for building strongly typed components.
+        - Taking ownership of developing key business features with limited time and resources.
+        - Taking initiative in reducing technical debt and improving code quality.
       `,
       tagsList: {
         title: 'Technologies',
