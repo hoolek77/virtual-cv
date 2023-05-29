@@ -76,7 +76,7 @@ const portfolioSectionData = {
       dates: [new Date('2021.10'), new Date('2022.12')],
       details: [
         { label: 'Team size', value: '6-10 people' },
-        { label: 'My role', value: ['React Developer'] },
+        { label: 'My role', value: ['Frontend Developer'] },
         { label: 'Company', value: 'DreamStorm Studios' },
         { label: 'Category', value: ['Web app, Commercial'] },
       ],
@@ -199,7 +199,7 @@ const portfolioSectionData = {
       dates: [new Date('2021-04'), new Date('2021-06')],
       details: [
         { label: 'Team size', value: '1 person' },
-        { label: 'My role', value: 'Frontend Developer' },
+        { label: 'My role', value: 'Fullstack Developer' },
         { label: 'Category', value: ['Web app', 'Learning purpose', 'Personal'] },
       ],
       pdfDetails: [

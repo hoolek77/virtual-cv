@@ -61,7 +61,7 @@ const experienceSectionData = {
       ],
     },
     {
-      role: 'React developer',
+      role: 'Frontend developer',
       company: 'DreamStorm Studios',
       image: import('@/assets/logos/dreamstorm-studios-logo.png'),
       dates: [new Date('2021-10'), new Date('2021-12')],
@@ -94,7 +94,7 @@ const experienceSectionData = {
       ],
     },
     {
-      role: 'Freelance React Developer',
+      role: 'Freelance Frontend Developer',
       company: 'Netzwind',
       image: import('@/assets/logos/netzwind-logo.jpeg'),
       dates: [new Date('2021-08'), new Date('2021-09')],
