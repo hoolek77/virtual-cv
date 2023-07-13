@@ -70,7 +70,7 @@ const experienceSectionData = {
       role: 'Frontend developer',
       company: 'DreamStorm Studios',
       image: import('@/assets/logos/dreamstorm-studios-logo.png'),
-      dates: [new Date('2021-10'), new Date('2021-12')],
+      dates: [new Date('2021-10'), new Date('2022-12')],
       description: `
         As a Junior Frontend Developer, I embarked on a journey of growth and learning, contributing to the development of an all-in-one multitool for interactive Web experiences. Here's what sets me apart:
         <br>
