@@ -74,7 +74,6 @@ const experienceSectionData = {
       description: `
         As a Junior Frontend Developer, I embarked on a journey of growth and learning, contributing to the development of an all-in-one multitool for interactive Web experiences. Here's what sets me apart:
         <br>
-        - **Technologies:** Utilizing React, TypeScript, CSS3, Jest, Next.js, Storybook, and styled-components, I played a vital role in creating a robust and user-friendly web application.
         - **Promotion and Growth:** Thanks to my dedication and continuous development, I earned a promotion to Frontend Developer. This allowed me to expand my technical expertise and take on more significant responsibilities, delivering high-quality code for seamless user experiences and optimal performance.
         - **Soft Skills Enhancement:** Alongside frontend development, I honed my soft skills by taking on a side role as a technical recruiter. Engaging with candidates and assessing their skills, I provided valuable insights to the hiring team, strengthening my communication and interpersonal abilities.
         - **Backend Exposure:** I also had the opportunity to undertake backend tasks, gaining valuable exposure to backend development. This cross-functional experience broadened my understanding of the development process and enhanced my collaboration with backend developers. It equipped me with a comprehensive skill set for contributing to end-to-end solutions.
@@ -146,7 +145,6 @@ const experienceSectionData = {
         During my internship as a React Native Developer, I had the privilege of contributing to the development of a mobile application aimed at enhancing programming skills through interactive learning experiences. Here's a closer look at my internship experience:
         <br>
         - **Internship as a React Native Developer:** Contributed to the development of a mobile application focused on enhancing programming skills through interactive learning experiences.
-        - **Technologies Utilized:** Leveraged React Native, TypeScript, JavaScript ES6, and Redux to create a feature-rich and engaging application.
         - **Collaborative Team Environment:** Worked as part of a collaborative team to build a chatbot-driven mobile application that provided an immersive learning environment.
         - **Goal-Oriented Application:** Developed an application where users could interact with a chatbot, solve puzzles, and improve their programming abilities.
         - **Insights into the Development Process:** Gained valuable insights into the end-to-end development process, from conceptualization to implementation, within a dynamic team setting.
