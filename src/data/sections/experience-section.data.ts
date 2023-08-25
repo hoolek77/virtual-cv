@@ -177,7 +177,6 @@ const experienceSectionData = {
         <br>
         - **Internship as a React Native Developer:** Contributed to the development of a mobile application focused on enhancing programming skills through interactive learning experiences.
         - **Collaborative Team Environment:** Worked as part of a collaborative team to build a chatbot-driven mobile application that provided an immersive learning environment.
-        - **Goal-Oriented Application:** Developed an application where users could interact with a chatbot, solve puzzles, and improve their programming abilities.
         - **Insights into the Development Process:** Gained valuable insights into the end-to-end development process, from conceptualization to implementation, within a dynamic team setting.
         - **Agile Methodologies:** Actively participated in agile development methodologies, such as scrum, to ensure efficient collaboration and timely delivery of project milestones.
         - **Learning from Experienced Developers:** Collaborated with experienced developers, benefiting from their mentorship and learning best practices in React Native development.
