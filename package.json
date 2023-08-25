@@ -37,7 +37,7 @@
     "@percy/cli": "1.20.3",
     "@types/marked": "4.0.8",
     "astro": "2.1.2",
-    "astro-compress": "1.1.35",
+    "astro-compress": "2.0.14",
     "concurrently": "7.6.0",
     "date-fns": "2.29.3",
     "favicons": "7.1.1",
