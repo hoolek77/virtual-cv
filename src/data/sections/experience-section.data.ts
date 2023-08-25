@@ -2,12 +2,14 @@ import type { ExperienceSection } from '@/types/sections/experience-section.type
 import type { ReadonlyDeep } from 'type-fest';
 import { facebook, linkedin, website } from '../helpers/links';
 import {
+  astro,
   axios,
   eslint,
   i18next,
   javascript,
   jest,
   nextJs,
+  nodeJs,
   prettier,
   prisma,
   react,
@@ -64,6 +66,35 @@ const experienceSectionData = {
       links: [
         website({ url: 'https://jjmdevelopment.pl/' }),
         linkedin({ url: 'https://www.linkedin.com/company/jjm-development/mycompany/' }),
+      ],
+    },
+    {
+      role: 'Frontend developer (Organization member)',
+      company: 'Coders Crew',
+      image: import('@/assets/logos/coders-crew-logo.png'),
+      dates: [new Date('2021-06'), null],
+      description: `
+        As a Software Developer at CodersCrew (an NGO organization), I have the incredible opportunity to contribute to open-source projects. Within this dynamic and collaborative organization, I actively participate in knowledge-sharing sessions, fostering an environment of continuous learning and growth among our talented team of developers.
+        Being part of CodersCrew means not only working on impactful open-source initiatives but also attending various workshops and development events. Engaging in these enriching experiences allows me to stay updated with the latest trends and technologies in the industry, empowering me to deliver top-notch solutions that align with our organization's vision.
+      `,
+      tagsList: {
+        title: 'Technologies',
+        tags: [
+          react(),
+          nextJs(),
+          typescript(),
+          jest(),
+          styledComponents(),
+          tailwindCss(),
+          astro(),
+          nodeJs(),
+          eslint(),
+          prettier(),
+        ],
+      },
+      links: [
+        website({ url: 'https://coderscrew.pl/' }),
+        linkedin({ url: 'https://www.linkedin.com/company/coderscrew/mycompany/' }),
       ],
     },
     {
